@@ -15,13 +15,7 @@ detectObjectsButton.addEventListener('click', detectAndDrawObjects)
 detectObjectsButton.disabled = false
 status.textContent = 'Ready'
 
-/* ⛳️ CHALLENGE 
 
-Complete this function with the following requirements:
-
-1. The AI Model must be 95% sure of the detected object
-2. The box coordinates must be compatible with the drawObjectBox helper function
-*/
 async function detectAndDrawObjects() {
     // Detect Objects
     status.textContent = 'Detecting...'
